@@ -1,7 +1,8 @@
 import React from 'react'
+import GnomesContainer from '../containers/GnomesContainer'
 
 const App = () => {
-  return <div>Welcome to REACT!</div>
+  return <GnomesContainer />
 }
 
 export default App

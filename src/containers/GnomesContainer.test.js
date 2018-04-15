@@ -6,7 +6,8 @@ jest.mock('../libs/dataDownloader')
 
 describe('GnomesContainer', () => {
   it('fetches the population', () => {
-    DataDownloader.get.mockResolvedValue({})
+    DataDownloader.get.mockResolvedValue({ town: [] })
+
     render(<GnomesContainer />)
 
     expect(DataDownloader.get).toHaveBeenCalledTimes(1)

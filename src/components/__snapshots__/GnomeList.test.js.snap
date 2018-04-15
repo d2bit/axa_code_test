@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GnomeList creates Gnomes 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="Gnome-0"
+    >
+      <h3
+        data-testid="name"
+      >
+        Tobus Quickwhistle
+      </h3>
+      <img
+        alt="Tobus Quickwhistle"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg"
+      />
+    </div>
+    <div
+      data-testid="Gnome-1"
+    >
+      <h3
+        data-testid="name"
+      >
+        Fizkin Voidbuster
+      </h3>
+      <img
+        alt="Fizkin Voidbuster"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/120000/nahled/white-hen.jpg"
+      />
+    </div>
+    <div
+      data-testid="Gnome-2"
+    >
+      <h3
+        data-testid="name"
+      >
+        Malbin Chromerocket
+      </h3>
+      <img
+        alt="Malbin Chromerocket"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/30000/nahled/maple-leaves-background.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
