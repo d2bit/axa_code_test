@@ -2,10 +2,12 @@ import React from 'react'
 import DataDownloader from '../libs/dataDownloader'
 import GnomeList from '../components/GnomeList'
 import GnomeFilter from '../components/GnomeFilter'
+import DetailedGnome from '../components/DetailedGnome'
 
 class GnomesContainer extends React.Component {
   state = {
     population: [],
+    gnomeId: null,
     filter: {
       name: '',
     },
@@ -16,11 +18,18 @@ class GnomesContainer extends React.Component {
     if (!globalPopulation) return
 
     const population = Object.values(globalPopulation)[0]
-    this.setState({ population })
+    this.setState({ ...this.state, population })
+  }
+
+  openGnomeDetails = (gnomeId) => {
+    this.setState({ ...this.state, gnomeId })
+  }
+  closeGnomeDetails = () => {
+    this.setState({ ...this.state, gnomeId: null })
   }
 
   updateFilter = (filter) => {
-    this.setState({ filter })
+    this.setState({ ...this.state, filter })
   }
 
   filteredPopulation = () => {
@@ -32,10 +41,17 @@ class GnomesContainer extends React.Component {
   }
 
   render() {
+    const { filter, gnomeId, population } = this.state
+    const selectedGnome = population.find(gnome => gnome.id === gnomeId)
     return (
       <React.Fragment>
-        <GnomeFilter updater={this.updateFilter} />
-        <GnomeList population={this.filteredPopulation()} />
+        {selectedGnome ?
+          <DetailedGnome {...selectedGnome} closeFn={this.closeGnomeDetails} /> :
+          <React.Fragment>
+            <GnomeFilter filter={filter} updater={this.updateFilter} />
+            <GnomeList population={this.filteredPopulation()} openDetailsFn={this.openGnomeDetails} />
+          </React.Fragment>
+        }
       </React.Fragment>
     )
   }
