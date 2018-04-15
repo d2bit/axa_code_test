@@ -2,7 +2,9 @@
 
 exports[`GnomeList creates Gnomes 1`] = `
 <div>
-  <div>
+  <div
+    data-testid="GnomeList"
+  >
     <div
       data-testid="Gnome-0"
     >
@@ -15,6 +17,7 @@ exports[`GnomeList creates Gnomes 1`] = `
         alt="Tobus Quickwhistle"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg"
+        width="200px"
       />
     </div>
     <div
@@ -29,6 +32,7 @@ exports[`GnomeList creates Gnomes 1`] = `
         alt="Fizkin Voidbuster"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/120000/nahled/white-hen.jpg"
+        width="200px"
       />
     </div>
     <div
@@ -43,6 +47,7 @@ exports[`GnomeList creates Gnomes 1`] = `
         alt="Malbin Chromerocket"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/30000/nahled/maple-leaves-background.jpg"
+        width="200px"
       />
     </div>
   </div>

@@ -14,6 +14,7 @@ exports[`Gnome shows the gnome information 1`] = `
       alt="Tobus Nozzletink"
       data-testid="thumbnail"
       src="http://www.publicdomainpictures.net/pictures/120000/velka/cactus-1430656432Iug.jpg"
+      width="200px"
     />
   </div>
 </div>

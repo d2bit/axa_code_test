@@ -4,7 +4,7 @@ const Gnome = ({ id, name, thumbnail, age, weitght, height, hair_color, professi
   return (
     <div data-testid={`Gnome-${id}`}>
       <h3 data-testid='name'>{name}</h3>
-      <img data-testid='thumbnail' src={thumbnail} alt={name} />
+      <img width='200px' data-testid='thumbnail' src={thumbnail} alt={name} />
     </div>
   )
 }

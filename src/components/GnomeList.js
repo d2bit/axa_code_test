@@ -8,7 +8,7 @@ function toGnome(profile) {
 }
 const GnomeList = ({ population }) => {
   return (
-    <div>
+    <div data-testid='GnomeList'>
       { population.map(toGnome) }
     </div>
   )

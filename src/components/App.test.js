@@ -1,16 +1,17 @@
 import React from 'react'
-import { render } from 'react-testing-library'
+import { render, wait } from 'react-testing-library'
 import App from './App'
 import DataDownloader from '../libs/dataDownloader'
 import { getResponseData } from '../mocks'
 jest.mock('../libs/dataDownloader')
 
 describe('App', () => {
-  it('renders without crashing', () => {
-    DataDownloader.get.mockResolvedValue(getResponseData())
+  it('renders without crashing', async () => {
+    DataDownloader.get.mockResolvedValue(getResponseData(3))
 
-    const { component } = render(<App />)
+    const { container } = render(<App />)
 
-    expect(component).toMatchSnapshot()
+    await wait()
+    expect(container).toMatchSnapshot()
   })
 })

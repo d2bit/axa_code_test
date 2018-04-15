@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GnomesContainer filters the population 1`] = `
+<div>
+  <div>
+    <input
+      data-testid="GnomeFilter"
+      name="GnomeFilter"
+      value=""
+    />
+  </div>
+  <div
+    data-testid="GnomeList"
+  >
+    <div
+      data-testid="Gnome-1"
+    >
+      <h3
+        data-testid="name"
+      >
+        Lola
+      </h3>
+      <img
+        alt="Lola"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/120000/nahled/white-hen.jpg"
+        width="200px"
+      />
+    </div>
+    <div
+      data-testid="Gnome-2"
+    >
+      <h3
+        data-testid="name"
+      >
+        Lucia
+      </h3>
+      <img
+        alt="Lucia"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/30000/nahled/maple-leaves-background.jpg"
+        width="200px"
+      />
+    </div>
+    <div
+      data-testid="Gnome-3"
+    >
+      <h3
+        data-testid="name"
+      >
+        Paco
+      </h3>
+      <img
+        alt="Paco"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/10000/nahled/1-1275919724d1Oh.jpg"
+        width="200px"
+      />
+    </div>
+    <div
+      data-testid="Gnome-4"
+    >
+      <h3
+        data-testid="name"
+      >
+        Nestor
+      </h3>
+      <img
+        alt="Nestor"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/10000/nahled/zebra-head-11281366876AZ3M.jpg"
+        width="200px"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GnomesContainer filters the population 2`] = `
+<div>
+  <div>
+    <input
+      data-testid="GnomeFilter"
+      name="GnomeFilter"
+      value="P"
+    />
+  </div>
+  <div
+    data-testid="GnomeList"
+  >
+    <div
+      data-testid="Gnome-3"
+    >
+      <h3
+        data-testid="name"
+      >
+        Paco
+      </h3>
+      <img
+        alt="Paco"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/10000/nahled/1-1275919724d1Oh.jpg"
+        width="200px"
+      />
+    </div>
+  </div>
+</div>
+`;
