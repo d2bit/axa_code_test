@@ -52,18 +52,22 @@ const Button = styled.button`
   border-radius: 50%;
 `
 
-const Gnome = ({ id, name, thumbnail, age, weitght, height, hair_color, professions, friends, openFn }) => {
-  return (
-    <Frame data-testid={`Gnome-${id}`}>
-      <Title data-testid='name'>{name}</Title>
-      <Thumbnail width='200px' data-testid='thumbnail' src={thumbnail} alt={name} />
-      <Actions>
-        <Counter title='Friends #' count={friends.length} />
-        <Counter title='Professions #' count={professions.length} />
-        <Button onClick={openFn}>OPEN</Button>
-      </Actions>
-    </Frame>
-  )
+class Gnome extends React.PureComponent {
+  render() {
+    const { id, name, thumbnail, age, weitght, height, hair_color, professions, friends, openDetailsFn } = this.props
+    const openFn = () => openDetailsFn(id)
+    return (
+      <Frame data-testid={`Gnome-${id}`}>
+        <Title data-testid='name'>{name}</Title>
+        <Thumbnail width='200px' data-testid='thumbnail' src={thumbnail} alt={name} />
+        <Actions>
+          <Counter title='Friends #' count={friends.length} />
+          <Counter title='Professions #' count={professions.length} />
+          <Button onClick={openFn}>OPEN</Button>
+        </Actions>
+      </Frame>
+    )
+  }
 }
 
 export default Gnome

@@ -5,18 +5,10 @@ import styled from 'styled-components'
 const Frame = styled.div`
   margin-top: 50px;
 `
-function toGnome(props, gnomeId) {
-  const { openDetailsFn, profile } = props
-  const openFn = () => openDetailsFn(gnomeId)
-  return (
-    <Gnome key={profile.id} {...profile} openFn={openFn} />
-  )
-}
 const GnomeList = ({ population, openDetailsFn }) => {
   const toGnome = profile => {
-    const openFn = () => openDetailsFn(profile.id)
     return (
-      <Gnome key={profile.id} {...profile} openFn={openFn} />
+      <Gnome key={profile.id} {...profile} openDetailsFn={openDetailsFn} />
     )
   }
 
