@@ -46,7 +46,7 @@ class GnomesContainer extends React.Component {
     return (
       <React.Fragment>
         <DetailedGnome {...selectedGnome} closeFn={this.closeGnomeDetails} />
-        <GnomeFilter filter={filter} updater={this.updateFilter} />
+        <GnomeFilter updater={this.updateFilter} />
         <GnomeList population={this.filteredPopulation()} openDetailsFn={this.openGnomeDetails} />
       </React.Fragment>
     )

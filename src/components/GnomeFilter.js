@@ -21,22 +21,29 @@ const Input = styled.input`
   border-bottom: .5px solid #efefef;
 `
 
-const GnomeFilter = ({ filter, updater }) => {
-  const handleChange = ev => {
+class GnomeFilter extends React.PureComponent {
+  state = {
+    name: ''
+  }
+
+  handleChange = ev => {
+    const { updater } = this.props
     ev.preventDefault()
     const { value } = ev.target
 
-    updater({ name: value })
+    this.setState({ name: value }, () => updater({ name: value }))
   }
 
-  const { name } = filter
+  render() {
+    const { name } = this.state
 
-  return (
-    <Frame>
-      <Label htmlFor='GnomeFilter'>Filter</Label>
-      <Input data-testid='GnomeFilter' name='GnomeFilter' value={name} onChange={handleChange} />
-    </Frame>
-  )
+    return (
+      <Frame>
+        <Label htmlFor='GnomeFilter'>Filter</Label>
+        <Input data-testid='GnomeFilter' name='GnomeFilter' value={name} onChange={this.handleChange} />
+      </Frame>
+    )
+  }
 }
 
 export default GnomeFilter
