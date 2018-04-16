@@ -2,20 +2,60 @@
 
 exports[`Gnome shows the gnome information 1`] = `
 <div>
-  <div
+  <article
+    class="sc-bdVaJa ibopQg"
     data-testid="Gnome-13"
   >
-    <h3
+    <h1
+      class="sc-bwzfXH ktvMFN"
       data-testid="name"
     >
       Tobus Nozzletink
-    </h3>
+    </h1>
     <img
       alt="Tobus Nozzletink"
+      class="sc-htpNat bxYIbZ"
       data-testid="thumbnail"
       src="http://www.publicdomainpictures.net/pictures/120000/velka/cactus-1430656432Iug.jpg"
       width="200px"
     />
-  </div>
+    <div
+      class="sc-bxivhb AhLTN"
+    >
+      <dl
+        class="sc-EHOje gSIZTi"
+      >
+        <dt
+          class="sc-bZQynM eHGlmB"
+        >
+          Friends #
+        </dt>
+        <dd
+          class="sc-gzVnrw daBuKq"
+        >
+          4
+        </dd>
+      </dl>
+      <dl
+        class="sc-htoDjs ceLEwZ"
+      >
+        <dt
+          class="sc-dnqmqq egAYPe"
+        >
+          Professions #
+        </dt>
+        <dd
+          class="sc-iwsKbI bZZPHw"
+        >
+          3
+        </dd>
+      </dl>
+      <button
+        class="sc-ifAKCX dFiLvw"
+      >
+        OPEN
+      </button>
+    </div>
+  </article>
 </div>
 `;

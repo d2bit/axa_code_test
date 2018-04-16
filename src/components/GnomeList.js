@@ -1,6 +1,10 @@
 import React from 'react'
 import Gnome from './Gnome'
+import styled from 'styled-components'
 
+const Frame = styled.div`
+  margin-top: 50px;
+`
 function toGnome(props, gnomeId) {
   const { openDetailsFn, profile } = props
   const openFn = () => openDetailsFn(gnomeId)
@@ -17,9 +21,9 @@ const GnomeList = ({ population, openDetailsFn }) => {
   }
 
   return (
-    <div data-testid='GnomeList'>
+    <Frame data-testid='GnomeList'>
       { population.map(toGnome) }
-    </div>
+    </Frame>
   )
 }
 

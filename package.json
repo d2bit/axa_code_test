@@ -21,11 +21,16 @@
   "homepage": "https://gitlab.com/d2bit/axa_code_test#README",
   "babel": {
     "presets": [
-      ["env", {
-        "targets": {
-          "browsers": ["last 2 Chrome versions"]
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "last 2 Chrome versions"
+            ]
+          }
         }
-      }],
+      ],
       "react",
       "stage-2"
     ]
@@ -47,6 +52,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "react-dom": "^16.3.1",
+    "styled-components": "^3.2.5"
   }
 }

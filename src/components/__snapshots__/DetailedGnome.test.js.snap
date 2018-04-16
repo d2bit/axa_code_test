@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailedGnome shows the gnome information 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa dgcmEa"
+    data-testid="DetailedGnome-13"
+  >
+    <article
+      class="sc-bwzfXH hLmvRs"
+    >
+      <h1
+        class="sc-htpNat hHtpcc"
+        data-testid="name"
+      >
+        Tobus Nozzletink
+      </h1>
+      <img
+        alt="Tobus Nozzletink"
+        class="sc-bxivhb fKfMUw"
+        data-testid="thumbnail"
+        src="http://www.publicdomainpictures.net/pictures/120000/velka/cactus-1430656432Iug.jpg"
+      />
+      <dl
+        class="sc-ifAKCX kPXwhV"
+        data-testid="Details"
+      >
+        <dt
+          class="sc-EHOje dLaEIy"
+        >
+          age
+        </dt>
+        <dd
+          class="sc-bZQynM dnZajw"
+        >
+          367
+        </dd>
+        <dt
+          class="sc-EHOje dLaEIy"
+        >
+          weight
+        </dt>
+        <dd
+          class="sc-bZQynM dnZajw"
+        >
+          36.732063
+        </dd>
+        <dt
+          class="sc-EHOje dLaEIy"
+        >
+          height
+        </dt>
+        <dd
+          class="sc-bZQynM dnZajw"
+        >
+          129.37299
+        </dd>
+        <dt
+          class="sc-EHOje dLaEIy"
+        >
+          hair color
+        </dt>
+        <dd
+          class="sc-bZQynM dnZajw"
+        >
+          Green
+        </dd>
+      </dl>
+      <h3
+        class="sc-gzVnrw ixhZlI"
+      >
+        professions
+      </h3>
+      <ul
+        class="sc-htoDjs kkAdrk"
+        data-testid="professions"
+      >
+        <li
+          class="sc-dnqmqq hFSyil"
+        >
+           Tinker
+        </li>
+        <li
+          class="sc-dnqmqq hFSyil"
+        >
+          Metalworker
+        </li>
+        <li
+          class="sc-dnqmqq hFSyil"
+        >
+          Carpenter
+        </li>
+      </ul>
+      <h3
+        class="sc-iwsKbI iSnuSD"
+      >
+        friends
+      </h3>
+      <ul
+        class="sc-gZMcBi jdjcMS"
+        data-testid="friends"
+      >
+        <li
+          class="sc-gqjmRU iVnGeP"
+        >
+          Milli Clanksbuster
+        </li>
+        <li
+          class="sc-gqjmRU iVnGeP"
+        >
+          Kinthony Tinkrivet
+        </li>
+        <li
+          class="sc-gqjmRU iVnGeP"
+        >
+          Sarabink Voidbuster
+        </li>
+        <li
+          class="sc-gqjmRU iVnGeP"
+        >
+          Tobus Nozzletorque
+        </li>
+      </ul>
+    </article>
+  </div>
+</div>
+`;

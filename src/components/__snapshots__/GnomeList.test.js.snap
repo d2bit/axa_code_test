@@ -3,53 +3,174 @@
 exports[`GnomeList creates Gnomes 1`] = `
 <div>
   <div
+    class="sc-EHOje cFMLaD"
     data-testid="GnomeList"
   >
-    <div
+    <article
+      class="sc-bdVaJa ibopQg"
       data-testid="Gnome-0"
     >
-      <h3
+      <h1
+        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Tobus Quickwhistle
-      </h3>
+      </h1>
       <img
         alt="Tobus Quickwhistle"
+        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg"
         width="200px"
       />
-    </div>
-    <div
+      <div
+        class="sc-bxivhb AhLTN"
+      >
+        <dl
+          class="sc-bZQynM MYevm"
+        >
+          <dt
+            class="sc-gzVnrw eBCMqW"
+          >
+            Friends #
+          </dt>
+          <dd
+            class="sc-htoDjs ilfRLU"
+          >
+            2
+          </dd>
+        </dl>
+        <dl
+          class="sc-dnqmqq AJfBh"
+        >
+          <dt
+            class="sc-iwsKbI ljplgw"
+          >
+            Professions #
+          </dt>
+          <dd
+            class="sc-gZMcBi ivEkZb"
+          >
+            6
+          </dd>
+        </dl>
+        <button
+          class="sc-ifAKCX dFiLvw"
+        >
+          OPEN
+        </button>
+      </div>
+    </article>
+    <article
+      class="sc-bdVaJa ibopQg"
       data-testid="Gnome-1"
     >
-      <h3
+      <h1
+        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Fizkin Voidbuster
-      </h3>
+      </h1>
       <img
         alt="Fizkin Voidbuster"
+        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/120000/nahled/white-hen.jpg"
         width="200px"
       />
-    </div>
-    <div
+      <div
+        class="sc-bxivhb AhLTN"
+      >
+        <dl
+          class="sc-gqjmRU fOsdGx"
+        >
+          <dt
+            class="sc-VigVT ibTICr"
+          >
+            Friends #
+          </dt>
+          <dd
+            class="sc-jTzLTM gCssPm"
+          >
+            0
+          </dd>
+        </dl>
+        <dl
+          class="sc-fjdhpX dmZZJR"
+        >
+          <dt
+            class="sc-jzJRlG bnBbLG"
+          >
+            Professions #
+          </dt>
+          <dd
+            class="sc-cSHVUG bjbrah"
+          >
+            6
+          </dd>
+        </dl>
+        <button
+          class="sc-ifAKCX dFiLvw"
+        >
+          OPEN
+        </button>
+      </div>
+    </article>
+    <article
+      class="sc-bdVaJa ibopQg"
       data-testid="Gnome-2"
     >
-      <h3
+      <h1
+        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Malbin Chromerocket
-      </h3>
+      </h1>
       <img
         alt="Malbin Chromerocket"
+        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/30000/nahled/maple-leaves-background.jpg"
         width="200px"
       />
-    </div>
+      <div
+        class="sc-bxivhb AhLTN"
+      >
+        <dl
+          class="sc-kAzzGY zaTQc"
+        >
+          <dt
+            class="sc-chPdSV BahvY"
+          >
+            Friends #
+          </dt>
+          <dd
+            class="sc-kgoBCf cjlrvh"
+          >
+            1
+          </dd>
+        </dl>
+        <dl
+          class="sc-kGXeez lkBlRL"
+        >
+          <dt
+            class="sc-kpOJdX bloNrL"
+          >
+            Professions #
+          </dt>
+          <dd
+            class="sc-dxgOiQ fLkiLh"
+          >
+            3
+          </dd>
+        </dl>
+        <button
+          class="sc-ifAKCX dFiLvw"
+        >
+          OPEN
+        </button>
+      </div>
+    </article>
   </div>
 </div>
 `;

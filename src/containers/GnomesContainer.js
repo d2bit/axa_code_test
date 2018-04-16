@@ -45,13 +45,9 @@ class GnomesContainer extends React.Component {
     const selectedGnome = population.find(gnome => gnome.id === gnomeId)
     return (
       <React.Fragment>
-        {selectedGnome ?
-          <DetailedGnome {...selectedGnome} closeFn={this.closeGnomeDetails} /> :
-          <React.Fragment>
-            <GnomeFilter filter={filter} updater={this.updateFilter} />
-            <GnomeList population={this.filteredPopulation()} openDetailsFn={this.openGnomeDetails} />
-          </React.Fragment>
-        }
+        <DetailedGnome {...selectedGnome} closeFn={this.closeGnomeDetails} />
+        <GnomeFilter filter={filter} updater={this.updateFilter} />
+        <GnomeList population={this.filteredPopulation()} openDetailsFn={this.openGnomeDetails} />
       </React.Fragment>
     )
   }

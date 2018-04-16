@@ -2,61 +2,191 @@
 
 exports[`App renders without crashing 1`] = `
 <div>
-  <div>
+  <div
+    class="sc-bZQynM koJOpM"
+  >
+    <label
+      class="sc-gzVnrw ijciRG"
+      for="GnomeFilter"
+    >
+      Filter
+    </label>
     <input
+      class="sc-htoDjs icjMxa"
       data-testid="GnomeFilter"
       name="GnomeFilter"
       value=""
     />
   </div>
   <div
+    class="sc-EHOje cFMLaD"
     data-testid="GnomeList"
   >
-    <div
+    <article
+      class="sc-bdVaJa ibopQg"
       data-testid="Gnome-0"
     >
-      <h3
+      <h1
+        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Tobus Quickwhistle
-      </h3>
+      </h1>
       <img
         alt="Tobus Quickwhistle"
+        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg"
         width="200px"
       />
-    </div>
-    <div
+      <div
+        class="sc-bxivhb AhLTN"
+      >
+        <dl
+          class="sc-VigVT edbqte"
+        >
+          <dt
+            class="sc-jTzLTM bsobgB"
+          >
+            Friends #
+          </dt>
+          <dd
+            class="sc-fjdhpX gLVTub"
+          >
+            2
+          </dd>
+        </dl>
+        <dl
+          class="sc-jzJRlG EHqGR"
+        >
+          <dt
+            class="sc-cSHVUG lhbslC"
+          >
+            Professions #
+          </dt>
+          <dd
+            class="sc-kAzzGY fqaLFK"
+          >
+            6
+          </dd>
+        </dl>
+        <button
+          class="sc-ifAKCX dFiLvw"
+        >
+          OPEN
+        </button>
+      </div>
+    </article>
+    <article
+      class="sc-bdVaJa ibopQg"
       data-testid="Gnome-1"
     >
-      <h3
+      <h1
+        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Fizkin Voidbuster
-      </h3>
+      </h1>
       <img
         alt="Fizkin Voidbuster"
+        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/120000/nahled/white-hen.jpg"
         width="200px"
       />
-    </div>
-    <div
+      <div
+        class="sc-bxivhb AhLTN"
+      >
+        <dl
+          class="sc-chPdSV bFTptm"
+        >
+          <dt
+            class="sc-kgoBCf jkhvua"
+          >
+            Friends #
+          </dt>
+          <dd
+            class="sc-kGXeez cjREQU"
+          >
+            0
+          </dd>
+        </dl>
+        <dl
+          class="sc-kpOJdX iWMmLY"
+        >
+          <dt
+            class="sc-dxgOiQ iWMJYb"
+          >
+            Professions #
+          </dt>
+          <dd
+            class="sc-ckVGcZ jSkjkd"
+          >
+            6
+          </dd>
+        </dl>
+        <button
+          class="sc-ifAKCX dFiLvw"
+        >
+          OPEN
+        </button>
+      </div>
+    </article>
+    <article
+      class="sc-bdVaJa ibopQg"
       data-testid="Gnome-2"
     >
-      <h3
+      <h1
+        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Malbin Chromerocket
-      </h3>
+      </h1>
       <img
         alt="Malbin Chromerocket"
+        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/30000/nahled/maple-leaves-background.jpg"
         width="200px"
       />
-    </div>
+      <div
+        class="sc-bxivhb AhLTN"
+      >
+        <dl
+          class="sc-jKJlTe hPVijE"
+        >
+          <dt
+            class="sc-eNQAEJ cbkkjm"
+          >
+            Friends #
+          </dt>
+          <dd
+            class="sc-hMqMXs ceJWUR"
+          >
+            1
+          </dd>
+        </dl>
+        <dl
+          class="sc-kEYyzF blYzxA"
+        >
+          <dt
+            class="sc-kkGfuU cHHKFH"
+          >
+            Professions #
+          </dt>
+          <dd
+            class="sc-iAyFgw hCWBoI"
+          >
+            3
+          </dd>
+        </dl>
+        <button
+          class="sc-ifAKCX dFiLvw"
+        >
+          OPEN
+        </button>
+      </div>
+    </article>
   </div>
 </div>
 `;

@@ -7,7 +7,7 @@ describe('GnomeList', () => {
   it('creates Gnomes', () => {
     const populationSize = 3
     const population = getPopulation(populationSize)
-    const { container } = render(<GnomeList population={population} />)
+    const { container } = render(<GnomeList openDetailsFn={() => {}} population={population} />)
 
     expect(container).toMatchSnapshot()
   })
