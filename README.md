@@ -40,3 +40,17 @@ he basics!)
 - Determine gender of gnomes (just joking on this one but feel free to make your
 uess)
 - Test the app
+
+---
+
+# WHY HAVE I USED LIBRARIES?
+
+### AXIOS
+Make AJAX requests easily and with browser compatibility
+
+## STYLES COMPONENTS
+Add styles to the application
+To experiment with a new way of applying styles
+Seems I have done something wrong with it, as it has created performance issues
+
+
