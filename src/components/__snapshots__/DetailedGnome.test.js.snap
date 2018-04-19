@@ -3,121 +3,79 @@
 exports[`DetailedGnome shows the gnome information 1`] = `
 <div>
   <div
-    class="sc-bdVaJa dgcmEa"
     data-testid="DetailedGnome-13"
   >
-    <article
-      class="sc-bwzfXH hLmvRs"
-    >
+    <article>
       <h1
-        class="sc-htpNat hHtpcc"
         data-testid="name"
       >
         Tobus Nozzletink
       </h1>
       <img
         alt="Tobus Nozzletink"
-        class="sc-bxivhb fKfMUw"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/120000/velka/cactus-1430656432Iug.jpg"
       />
       <dl
-        class="sc-ifAKCX kPXwhV"
         data-testid="Details"
       >
-        <dt
-          class="sc-EHOje dLaEIy"
-        >
+        <dt>
           age
         </dt>
-        <dd
-          class="sc-bZQynM dnZajw"
-        >
+        <dd>
           367
         </dd>
-        <dt
-          class="sc-EHOje dLaEIy"
-        >
+        <dt>
           weight
         </dt>
-        <dd
-          class="sc-bZQynM dnZajw"
-        >
+        <dd>
           36.732063
         </dd>
-        <dt
-          class="sc-EHOje dLaEIy"
-        >
+        <dt>
           height
         </dt>
-        <dd
-          class="sc-bZQynM dnZajw"
-        >
+        <dd>
           129.37299
         </dd>
-        <dt
-          class="sc-EHOje dLaEIy"
-        >
+        <dt>
           hair color
         </dt>
-        <dd
-          class="sc-bZQynM dnZajw"
-        >
+        <dd>
           Green
         </dd>
       </dl>
-      <h3
-        class="sc-gzVnrw ixhZlI"
-      >
+      <h3>
         professions
       </h3>
       <ul
-        class="sc-htoDjs kkAdrk"
         data-testid="professions"
       >
-        <li
-          class="sc-dnqmqq hFSyil"
-        >
+        <li>
            Tinker
         </li>
-        <li
-          class="sc-dnqmqq hFSyil"
-        >
+        <li>
           Metalworker
         </li>
-        <li
-          class="sc-dnqmqq hFSyil"
-        >
+        <li>
           Carpenter
         </li>
       </ul>
-      <h3
-        class="sc-iwsKbI iSnuSD"
-      >
+      <h3>
         friends
       </h3>
       <ul
-        class="sc-gZMcBi jdjcMS"
         data-testid="friends"
       >
-        <li
-          class="sc-gqjmRU iVnGeP"
-        >
+        <li>
           Milli Clanksbuster
         </li>
-        <li
-          class="sc-gqjmRU iVnGeP"
-        >
+        <li>
           Kinthony Tinkrivet
         </li>
-        <li
-          class="sc-gqjmRU iVnGeP"
-        >
+        <li>
           Sarabink Voidbuster
         </li>
-        <li
-          class="sc-gqjmRU iVnGeP"
-        >
+        <li>
           Tobus Nozzletorque
         </li>
       </ul>

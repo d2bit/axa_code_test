@@ -2,327 +2,219 @@
 
 exports[`GnomesContainer filters the population 1`] = `
 <div>
-  <div
-    class="sc-bZQynM koJOpM"
-  >
-    <label
-      class="sc-gzVnrw ijciRG"
-      for="GnomeFilter"
-    >
-      Filter
-    </label>
+  <div>
     <input
-      class="sc-htoDjs icjMxa"
       data-testid="GnomeFilter"
       name="GnomeFilter"
+      placeholder="Type to filter"
       value=""
     />
   </div>
   <div
-    class="sc-EHOje cFMLaD"
     data-testid="GnomeList"
   >
-    <article
-      class="sc-bdVaJa ibopQg"
+    <div
       data-testid="Gnome-1"
+      weight="35.279167"
     >
       <h1
-        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Lola
       </h1>
       <img
         alt="Lola"
-        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/120000/nahled/white-hen.jpg"
         width="200px"
       />
-      <div
-        class="sc-bxivhb AhLTN"
-      >
-        <dl
-          class="sc-jAaTju bxHhgJ"
-        >
-          <dt
-            class="sc-jDwBTQ kArRjQ"
-          >
+      <div>
+        <div>
+          <h1>
             Friends #
-          </dt>
-          <dd
-            class="sc-gPEVay gKcLgt"
-          >
+          </h1>
+          <span>
             0
-          </dd>
-        </dl>
-        <dl
-          class="sc-iRbamj cFXwIH"
-        >
-          <dt
-            class="sc-jlyJG krEniG"
-          >
+          </span>
+        </div>
+        <div>
+          <h1>
             Professions #
-          </dt>
-          <dd
-            class="sc-gipzik ejDRhz"
-          >
+          </h1>
+          <span>
             6
-          </dd>
-        </dl>
-        <button
-          class="sc-ifAKCX dFiLvw"
-        >
+          </span>
+        </div>
+        <button>
           OPEN
         </button>
       </div>
-    </article>
-    <article
-      class="sc-bdVaJa ibopQg"
+    </div>
+    <div
       data-testid="Gnome-2"
+      weight="35.88665"
     >
       <h1
-        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Lucia
       </h1>
       <img
         alt="Lucia"
-        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/30000/nahled/maple-leaves-background.jpg"
         width="200px"
       />
-      <div
-        class="sc-bxivhb AhLTN"
-      >
-        <dl
-          class="sc-csuQGl BpIXC"
-        >
-          <dt
-            class="sc-Rmtcm kkGsuG"
-          >
+      <div>
+        <div>
+          <h1>
             Friends #
-          </dt>
-          <dd
-            class="sc-bRBYWo fhVRTz"
-          >
+          </h1>
+          <span>
             1
-          </dd>
-        </dl>
-        <dl
-          class="sc-hzDkRC cDZwHr"
-        >
-          <dt
-            class="sc-jhAzac gOSUvy"
-          >
+          </span>
+        </div>
+        <div>
+          <h1>
             Professions #
-          </dt>
-          <dd
-            class="sc-fBuWsC jASHLB"
-          >
+          </h1>
+          <span>
             3
-          </dd>
-        </dl>
-        <button
-          class="sc-ifAKCX dFiLvw"
-        >
+          </span>
+        </div>
+        <button>
           OPEN
         </button>
       </div>
-    </article>
-    <article
-      class="sc-bdVaJa ibopQg"
+    </div>
+    <div
       data-testid="Gnome-3"
+      weight="40.97596"
     >
       <h1
-        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Paco
       </h1>
       <img
         alt="Paco"
-        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/10000/nahled/1-1275919724d1Oh.jpg"
         width="200px"
       />
-      <div
-        class="sc-bxivhb AhLTN"
-      >
-        <dl
-          class="sc-fMiknA ckWEGr"
-        >
-          <dt
-            class="sc-dVhcbM iMamPZ"
-          >
+      <div>
+        <div>
+          <h1>
             Friends #
-          </dt>
-          <dd
-            class="sc-eqIVtm kGgpwJ"
-          >
+          </h1>
+          <span>
             2
-          </dd>
-        </dl>
-        <dl
-          class="sc-fAjcbJ iZBjiY"
-        >
-          <dt
-            class="sc-caSCKo cGsxRv"
-          >
+          </span>
+        </div>
+        <div>
+          <h1>
             Professions #
-          </dt>
-          <dd
-            class="sc-gisBJw gbEtFL"
-          >
+          </h1>
+          <span>
             6
-          </dd>
-        </dl>
-        <button
-          class="sc-ifAKCX dFiLvw"
-        >
+          </span>
+        </div>
+        <button>
           OPEN
         </button>
       </div>
-    </article>
-    <article
-      class="sc-bdVaJa ibopQg"
+    </div>
+    <div
       data-testid="Gnome-4"
+      weight="43.506973"
     >
       <h1
-        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Nestor
       </h1>
       <img
         alt="Nestor"
-        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/10000/nahled/zebra-head-11281366876AZ3M.jpg"
         width="200px"
       />
-      <div
-        class="sc-bxivhb AhLTN"
-      >
-        <dl
-          class="sc-kjoXOD jCpIaq"
-        >
-          <dt
-            class="sc-cHGsZl fKXNtP"
-          >
+      <div>
+        <div>
+          <h1>
             Friends #
-          </dt>
-          <dd
-            class="sc-TOsTZ gfbLfb"
-          >
+          </h1>
+          <span>
             2
-          </dd>
-        </dl>
-        <dl
-          class="sc-kgAjT hZngUN"
-        >
-          <dt
-            class="sc-cJSrbW dxzMvW"
-          >
+          </span>
+        </div>
+        <div>
+          <h1>
             Professions #
-          </dt>
-          <dd
-            class="sc-ksYbfQ ihUTtD"
-          >
+          </h1>
+          <span>
             2
-          </dd>
-        </dl>
-        <button
-          class="sc-ifAKCX dFiLvw"
-        >
+          </span>
+        </div>
+        <button>
           OPEN
         </button>
       </div>
-    </article>
+    </div>
   </div>
 </div>
 `;
 
 exports[`GnomesContainer filters the population 2`] = `
 <div>
-  <div
-    class="sc-bZQynM koJOpM"
-  >
-    <label
-      class="sc-gzVnrw ijciRG"
-      for="GnomeFilter"
-    >
-      Filter
-    </label>
+  <div>
     <input
-      class="sc-htoDjs icjMxa"
       data-testid="GnomeFilter"
       name="GnomeFilter"
+      placeholder="Type to filter"
       value="P"
     />
   </div>
   <div
-    class="sc-EHOje cFMLaD"
     data-testid="GnomeList"
   >
-    <article
-      class="sc-bdVaJa ibopQg"
+    <div
       data-testid="Gnome-3"
+      weight="40.97596"
     >
       <h1
-        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Paco
       </h1>
       <img
         alt="Paco"
-        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/10000/nahled/1-1275919724d1Oh.jpg"
         width="200px"
       />
-      <div
-        class="sc-bxivhb AhLTN"
-      >
-        <dl
-          class="sc-fMiknA ckWEGr"
-        >
-          <dt
-            class="sc-dVhcbM iMamPZ"
-          >
+      <div>
+        <div>
+          <h1>
             Friends #
-          </dt>
-          <dd
-            class="sc-eqIVtm kGgpwJ"
-          >
+          </h1>
+          <span>
             2
-          </dd>
-        </dl>
-        <dl
-          class="sc-fAjcbJ iZBjiY"
-        >
-          <dt
-            class="sc-caSCKo cGsxRv"
-          >
+          </span>
+        </div>
+        <div>
+          <h1>
             Professions #
-          </dt>
-          <dd
-            class="sc-gisBJw gbEtFL"
-          >
+          </h1>
+          <span>
             6
-          </dd>
-        </dl>
-        <button
-          class="sc-ifAKCX dFiLvw"
-        >
+          </span>
+        </div>
+        <button>
           OPEN
         </button>
       </div>
-    </article>
+    </div>
   </div>
 </div>
 `;

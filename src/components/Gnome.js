@@ -13,8 +13,6 @@ const Counter = ({ title, count }) => {
 class Gnome extends React.PureComponent {
   render() {
     const { id, name, thumbnail, age, weitght, height, hair_color, professions, friends, openDetailsFn, ...rest } = this.props
-    //console.log('creating gnome', this.props.id, this.props.name)
-    //return <div>{id} - {name}</div>
     const openFn = () => openDetailsFn(id)
     return (
       <div className={style.frame} data-testid={`Gnome-${id}`} {...rest}>

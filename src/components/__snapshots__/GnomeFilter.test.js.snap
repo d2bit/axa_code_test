@@ -2,19 +2,11 @@
 
 exports[`GnomeFilter shows the gnome information 1`] = `
 <div>
-  <div
-    class="sc-bdVaJa dtiqAs"
-  >
-    <label
-      class="sc-bwzfXH jxEbzC"
-      for="GnomeFilter"
-    >
-      Filter
-    </label>
+  <div>
     <input
-      class="sc-htpNat fKBxqF"
       data-testid="GnomeFilter"
       name="GnomeFilter"
+      placeholder="Type to filter"
       value=""
     />
   </div>

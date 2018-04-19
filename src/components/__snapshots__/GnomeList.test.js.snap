@@ -3,174 +3,119 @@
 exports[`GnomeList creates Gnomes 1`] = `
 <div>
   <div
-    class="sc-EHOje cFMLaD"
     data-testid="GnomeList"
   >
-    <article
-      class="sc-bdVaJa ibopQg"
+    <div
       data-testid="Gnome-0"
+      weight="39.065952"
     >
       <h1
-        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Tobus Quickwhistle
       </h1>
       <img
         alt="Tobus Quickwhistle"
-        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg"
         width="200px"
       />
-      <div
-        class="sc-bxivhb AhLTN"
-      >
-        <dl
-          class="sc-bZQynM MYevm"
-        >
-          <dt
-            class="sc-gzVnrw eBCMqW"
-          >
+      <div>
+        <div>
+          <h1>
             Friends #
-          </dt>
-          <dd
-            class="sc-htoDjs ilfRLU"
-          >
+          </h1>
+          <span>
             2
-          </dd>
-        </dl>
-        <dl
-          class="sc-dnqmqq AJfBh"
-        >
-          <dt
-            class="sc-iwsKbI ljplgw"
-          >
+          </span>
+        </div>
+        <div>
+          <h1>
             Professions #
-          </dt>
-          <dd
-            class="sc-gZMcBi ivEkZb"
-          >
+          </h1>
+          <span>
             6
-          </dd>
-        </dl>
-        <button
-          class="sc-ifAKCX dFiLvw"
-        >
+          </span>
+        </div>
+        <button>
           OPEN
         </button>
       </div>
-    </article>
-    <article
-      class="sc-bdVaJa ibopQg"
+    </div>
+    <div
       data-testid="Gnome-1"
+      weight="35.279167"
     >
       <h1
-        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Fizkin Voidbuster
       </h1>
       <img
         alt="Fizkin Voidbuster"
-        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/120000/nahled/white-hen.jpg"
         width="200px"
       />
-      <div
-        class="sc-bxivhb AhLTN"
-      >
-        <dl
-          class="sc-gqjmRU fOsdGx"
-        >
-          <dt
-            class="sc-VigVT ibTICr"
-          >
+      <div>
+        <div>
+          <h1>
             Friends #
-          </dt>
-          <dd
-            class="sc-jTzLTM gCssPm"
-          >
+          </h1>
+          <span>
             0
-          </dd>
-        </dl>
-        <dl
-          class="sc-fjdhpX dmZZJR"
-        >
-          <dt
-            class="sc-jzJRlG bnBbLG"
-          >
+          </span>
+        </div>
+        <div>
+          <h1>
             Professions #
-          </dt>
-          <dd
-            class="sc-cSHVUG bjbrah"
-          >
+          </h1>
+          <span>
             6
-          </dd>
-        </dl>
-        <button
-          class="sc-ifAKCX dFiLvw"
-        >
+          </span>
+        </div>
+        <button>
           OPEN
         </button>
       </div>
-    </article>
-    <article
-      class="sc-bdVaJa ibopQg"
+    </div>
+    <div
       data-testid="Gnome-2"
+      weight="35.88665"
     >
       <h1
-        class="sc-bwzfXH ktvMFN"
         data-testid="name"
       >
         Malbin Chromerocket
       </h1>
       <img
         alt="Malbin Chromerocket"
-        class="sc-htpNat bxYIbZ"
         data-testid="thumbnail"
         src="http://www.publicdomainpictures.net/pictures/30000/nahled/maple-leaves-background.jpg"
         width="200px"
       />
-      <div
-        class="sc-bxivhb AhLTN"
-      >
-        <dl
-          class="sc-kAzzGY zaTQc"
-        >
-          <dt
-            class="sc-chPdSV BahvY"
-          >
+      <div>
+        <div>
+          <h1>
             Friends #
-          </dt>
-          <dd
-            class="sc-kgoBCf cjlrvh"
-          >
+          </h1>
+          <span>
             1
-          </dd>
-        </dl>
-        <dl
-          class="sc-kGXeez lkBlRL"
-        >
-          <dt
-            class="sc-kpOJdX bloNrL"
-          >
+          </span>
+        </div>
+        <div>
+          <h1>
             Professions #
-          </dt>
-          <dd
-            class="sc-dxgOiQ fLkiLh"
-          >
+          </h1>
+          <span>
             3
-          </dd>
-        </dl>
-        <button
-          class="sc-ifAKCX dFiLvw"
-        >
+          </span>
+        </div>
+        <button>
           OPEN
         </button>
       </div>
-    </article>
+    </div>
   </div>
 </div>
 `;
