@@ -48,9 +48,3 @@ uess)
 ### AXIOS
 Make AJAX requests easily and with browser compatibility
 
-## STYLES COMPONENTS
-Add styles to the application
-To experiment with a new way of applying styles
-Seems I have done something wrong with it, as it has created performance issues
-
-

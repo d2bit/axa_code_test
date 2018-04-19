@@ -1,0 +1,67 @@
+.frame {
+  background-color: #f9f9f9;
+  margin: .3rem auto;
+  padding: 1rem 2rem;
+  border: 1px solid #ececec;
+  flex-basis: 95%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.title {
+  margin: .2rem 0 0;
+  font-size: 1.6rem;
+}
+
+.thumbnail {
+  width: 100%;
+  max-height: 200px;
+  height: auto;
+  border: 1px solid #b5b5b5;
+}
+
+.actions {
+  flex-basis: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+}
+
+.counter {
+  margin: 0;
+  border-bottom: 1px solid #c5c5c5;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.counterTitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.counterValue {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.btn {
+  background-color: #4CAF50;
+  font-size: 1.5rem;
+  color: #ffffff;
+  border: 1px solid #316934;
+  border-radius: 50%;
+}
+
+@media (min-width: 550px) {
+  .frame {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 850px) {
+  .frame {
+    flex-basis: 30%;
+  }
+}
